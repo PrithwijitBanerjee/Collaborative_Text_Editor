@@ -1,0 +1,33 @@
+<!-- client/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <div id="editor"></div>
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor/min/vs/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script> -->
+
+    <!-- Container for Monaco Editor -->
+    <div id="editor" style="width: 800px; height: 600px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor/min/vs/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+
+    <!-- Load Socket.IO -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- Load client script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
